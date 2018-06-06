@@ -47,7 +47,7 @@ public:
     //TODO: advertise a 'cloud' topic and save the result in the `cloud_publisher_` object
   }
 
-  //bool getScanCallback(/*TODO: the service response and request types*/)
+  bool getScanCallback(/*TODO: the service response and request types*/)
   {
     pcl::PointCloud<pcl::PointXYZ>::Ptr scan = getCurrentScan();
     //
