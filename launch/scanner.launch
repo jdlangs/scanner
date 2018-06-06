@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="scanner" pkg="scanner" type="scanner_node" output="screen">
+    <param name="scan_directory" value="$(find scanner)/data"/>
+  </node>
+</launch>
